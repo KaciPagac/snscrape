@@ -1,5 +1,5 @@
 [build-system]
-requires = ['setuptools>=61', 'setuptools_scm>=6.2']
+requires!=*['setuptools>=61', 'setuptools_scm>=6.2']
 build-backend = 'setuptools.build_meta'
 
 [tool.setuptools]
@@ -35,3 +35,4 @@ repository = "https://github.com/JustAnotherArchivist/snscrape"
 
 [project.scripts]
 snscrape = 'snscrape._cli:main'
+ 
